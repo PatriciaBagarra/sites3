@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html class="no-js" xmlns:og="http://opengraphprotocol.org/schema/">
+
+<!-- Mirrored from www.straightnorth.com/markets/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Sep 2021 06:26:48 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+<meta name="google-site-verification" content="jVxi__dm_XG4nVLGIOzhM7dHtUQPqhkGJz1aqZLRfaA" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!--<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">-->
+<!--<META HTTP-EQUIV="EXPIRES" CONTENT="Mon, 11 Jul 2015 11:12:01 GMT">-->
+
+<META HTTP-EQUIV="Pragma" CONTENT="private" />
+<META HTTP-EQUIV="Cache-Control" CONTENT="private, max-age=5400, pre-check=5400" />
+<META HTTP-EQUIV="Expires" CONTENT="Wed, 08 Sep 21 08:48:09 -0500" />
+<meta property="og:site_name" content="Straight North"/>
+
+
+  <!--[if IE]><![endif]-->
+<link rel="dns-prefetch" href="http://maxcdn.bootstrapcdn.com/" />
+<link rel="preconnect" href="http://maxcdn.bootstrapcdn.com/" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-889129a6de040a5da11",applicationID:"211269243"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){"hidden"===t&&d("pageHide",[p.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https:///")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/favicon.png" type="image/png" />
+<meta name="description" content="Agriculture Agriculture may be the oldest industry on the planet, but it’s no stranger to technology. This is as true when it comes to marketing as it is in the field. Learn More Automotive You need an Internet marketing company with experience marketing to fleet managers, vehicle buyers, trucking companies and other customers up and down the automotive supply chain. We’ve got" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="index.html" />
+<link rel="shortlink" href="../node/3508/index.html" />
+<meta property="og:title" content="Markets We Serve" />
+<meta property="og:description" content="Agriculture Agriculture may be the oldest industry on the planet, but it’s no stranger to technology. This is as true when it comes to marketing as it is in the field. Learn More Automotive You need an Internet marketing company with experience marketing to fleet managers, vehicle buyers, trucking companies and other customers up and down the automotive supply chain. We’ve got you covered. Auto Parts, Auto Repair, Car Dealers, Car Wash, Limo Learn More Aviation Aviation marketing is far from cut and dried, partly because of audience size." />
+<meta property="og:updated_time" content="2019-01-16T14:42:04-06:00" />
+<meta name="twitter:title" content="Markets We Serve" />
+<meta name="twitter:description" content="Agriculture Agriculture may be the oldest industry on the planet, but it’s no stranger to technology. This is as true when it comes to marketing as it is in the field. Learn More Automotive You need" />
+<meta property="article:published_time" content="2015-11-14T10:03:44-06:00" />
+<meta property="article:modified_time" content="2019-01-16T14:42:04-06:00" />
+  <title>Straight North's Industry Expertise</title>
+
+
+  <!-- BEGIN Modernizr -->
+  <!--<script src="/profiles/sndev_install/themes/sndev/js/modernizr.custom.js"></script>-->
+  <!-- END Modernizr -->
+  <!-- BEGIN Styles -->
+
+
+  <style type="text/css" media="screen">
+@import url("https://www.straightnorth.com/profiles/sndev_install/modules/contrib/codefilter/codefilter.css?qyuyx4");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.straightnorth.com/modules/field/theme/field.css?qyuyx4");
+@import url("https://www.straightnorth.com/profiles/sndev_install/modules/sncustom/ouibounce/exit_intent.css?qyuyx4");
+@import url("https://www.straightnorth.com/profiles/sndev_install/modules/contrib/views/css/views.css?qyuyx4");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.straightnorth.com/profiles/sndev_install/modules/contrib/colorbox/styles/default/colorbox_style.css?qyuyx4");
+@import url("https://www.straightnorth.com/profiles/sndev_install/modules/contrib/ctools/css/ctools.css?qyuyx4");
+@import url("https://www.straightnorth.com/profiles/sndev_install/modules/contrib/panels/css/panels.css?qyuyx4");
+@import url("https://www.straightnorth.com/profiles/sndev_install/themes/sndev/plugins/layouts/sndev/onecol_five_row/onecol_five_row.css?qyuyx4");
+@import url("../sites/default/files/honeypot/honeypotb491.css?qyuyx4");
+@import url("https://www.straightnorth.com/profiles/sndev_install/modules/contrib/webform/css/webform.css?qyuyx4");
+</style>
+<link type="text/css" rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" />
+<style type="text/css" media="all">
+@import url("https://www.straightnorth.com/profiles/sndev_install/modules/contrib/hide_submit/css/ladda-themeless.min.css?qyuyx4");
+@import url("https://www.straightnorth.com/profiles/sndev_install/modules/contrib/hide_submit/css/hide_submit.css?qyuyx4");
+</style>
+<style type="text/css" media="print">
+@import url("https://www.straightnorth.com/profiles/sndev_install/themes/sndev/css/reset.css?qyuyx4");
+@import url("https://www.straightnorth.com/profiles/sndev_install/themes/sndev/css/base.css?qyuyx4");
+@import url("https://www.straightnorth.com/profiles/sndev_install/themes/sndev/css/print.css?qyuyx4");
+</style>
+<style type="text/css" media="screen">
+@import url("https://www.straightnorth.com/profiles/sndev_install/themes/sndev/css/simpleLightbox.min.css?qyuyx4");
+@import url("https://www.straightnorth.com/profiles/sndev_install/themes/sndev/css/sndev.css?qyuyx4");
+@import url("https://www.straightnorth.com/profiles/sndev_install/themes/sndev/css/odometer.css?qyuyx4");
+</style>
+
+
+  <!-- END Styles -->
+  
+
+    <style type="text/css">
+      #content {top: 50%; transform: translateY(-50%);}
+      #demo_info p {margin: 0; padding: 0; font-size: 30px;}
+    </style>
+
+
+
+
+
+
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-3508 node-type-section-landing layout-marketing-2018  sndev" >
+
+
+<div id="phase3-cta-trigger"></div>
+
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+
+  <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MB6VTFZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>  
+<div class="mobile-menu"><ul class="menu">
+    <li class="first leaf has-children menu-mlid-2522"><a href="../index.html">Home</a></li>
+    <li class="first expanded menu-mlid-5567"><a href="../services/index.html">Services</a>
+
+<!-- SUB -->
+<ul class="menu">
+<li class="first"><a href="../services/seo/index.html">SEO</a></li>
+<li class=""><a href="../services/ppc-management/index.html">PPC Management</a></li>
+<li class=""><a href="../services/display/index.html">Display Advertising</a></li>
+<li class=""><a href="../services/email-marketing/index.html">Email Marketing</a></li>
+<li class=""><a href="../services/graphic-design/index.html">Graphic Design</a></li>
+<li class=""><a href="../services/websites/web-design/index.html">Custom Web Design</a></li>
+</ul>
+<!-- SUB -->
+
+    </li>
+
+    <li class="expanded menu-mlid-5531"><a href="index.html">Markets</a></li>
+    <li class="expanded menu-mlid-5570"><a href="../case-studies/index.html">Case Studies</a></li>
+
+
+    <li class="leaf menu-mlid-2553"><a href="../portfolio/index.html">Portfolio</a></li>
+    <li class="leaf menu-mlid-6766"><a href="../insights/index.html">Blog</a></li>
+    <li class="last expanded menu-mlid-2524"><a href="../company/index.html">Company</a></li>
+</ul><div class="panel-separator"></div><a href="../request-quote/index.html" class="req-quote">Request Quote</a>
+<!-- <a href="#" class="req-quote">Tools</a> -->
+<a href="../company/marketing-resources/index.html" class="req-quote">Marketing Resources</a>
+<a href="../faq/index.html" class="req-quote">FAQs</a>
+<a href="../tools/index.html" class="req-quote">Tools</a>
+<a href="https://www.gonorthreporting.com/" class="req-quote" target="_blank">Login</a>
+</div>
+
+<div id="container">
+            <div class="header">
+            <div class="inner">
+                <a href="../index.html"><img class="logo" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/img/logo-sn-main-02.png"></a>
+<div class="nav-link">Navigation Link</div>
+<a href="tel:18558830011" class="phone"><span>855-883-0011</span></a>
+<a rel="nofollow" href="../request-quote/index.html" class="request-quote">Request Quote</a>
+
+<div class="util">
+<!-- <a href="#">Tools</a> -->
+<a href="../company/marketing-resources/index.html">Marketing Resources</a>
+<a href="../faq/index.html">FAQs</a>
+<a href="../tools/index.html">Tools</a>
+<a href="https://www.gonorthreporting.com/" target="_blank">Login</a>
+</div><div class="panel-separator"></div><div class="panel-pane pane-menu-tree pane-menu-header-menu menu-main"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-ctools-menu-header-menu-1 menu-name-menu-header-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first expanded menu-mlid-13416 uber-menu"><a href="../services/index.html">Services</a><ul class="menu"><li class="first expanded menu-mlid-13491"><a href="../services/seo/index.html" class="leader">SEO</a><ul class="menu"><li class="first leaf menu-mlid-13531"><a href="../services/seo/pricing/index.html">SEO Pricing</a></li>
+<li class="leaf menu-mlid-13536"><a href="../free-seo-audit/index.html">Free SEO Audit</a></li>
+<li class="leaf menu-mlid-13541"><a href="../services/seo/local/index.html">Local SEO</a></li>
+<li class="leaf menu-mlid-13546"><a href="../services/seo/national/index.html">National SEO</a></li>
+<li class="leaf menu-mlid-13551"><a href="../services/seo/small-business/index.html">Small Business SEO</a></li>
+<li class="leaf menu-mlid-13556"><a href="../services/seo/ecommerce/index.html">E-commerce SEO</a></li>
+<li class="leaf menu-mlid-13561"><a href="../services/seo/enterprise/index.html">Enterprise SEO</a></li>
+<li class="leaf menu-mlid-13566"><a href="../services/seo/index.html">B2B SEO</a></li>
+<li class="leaf menu-mlid-13571"><a href="../services/seo/google-penalty-recovery/index.html">Google Penalty Recovery</a></li>
+<li class="leaf menu-mlid-13576"><a href="../services/seo/monthly-services/index.html">Monthly SEO Services</a></li>
+<li class="leaf menu-mlid-13581"><a href="../services/seo/professional/index.html">Professional SEO</a></li>
+<li class="leaf menu-mlid-13586"><a href="../services/seo/consulting/index.html">SEO Consulting</a></li>
+<li class="leaf menu-mlid-13591"><a href="../services/seo/experts/index.html">SEO Experts</a></li>
+<li class="last leaf menu-mlid-13596"><a href="../services/seo/link-building/index.html">Link Building</a></li>
+</ul></li>
+<li class="expanded menu-mlid-13496"><a href="../services/ppc-management/index.html" class="leader">PPC Management</a><ul class="menu"><li class="first leaf menu-mlid-13606"><a href="../services/ppc-management/pricing/index.html">PPC Pricing</a></li>
+<li class="leaf menu-mlid-13611"><a href="../services/ppc-management/free-audit/index.html">Free PPC Audit</a></li>
+<li class="leaf menu-mlid-13616"><a href="../services/ppc-management/e-commerce/index.html">E-commerce PPC</a></li>
+<li class="leaf menu-mlid-13621"><a href="../services/ppc-management/consulting/index.html">PPC Consulting</a></li>
+<li class="last leaf menu-mlid-13626"><a href="../services/ppc-management/production/google-adwords/index.html">Google AdWords</a></li>
+</ul></li>
+<li class="expanded menu-mlid-13501"><a href="../services/display/index.html" class="leader">Display Advertising</a><ul class="menu"><li class="first leaf menu-mlid-13631"><a href="../free-display-audit/index.html">Free Display Audit</a></li>
+<li class="leaf menu-mlid-13636"><a href="../services/display/strategy/retargeting/index.html">Retargeting</a></li>
+<li class="last leaf menu-mlid-13641"><a href="../services/display/social/index.html">Social Media Advertising</a></li>
+</ul></li>
+<li class="expanded menu-mlid-13506"><a href="../services/email-marketing/index.html" class="leader">Email Marketing</a><ul class="menu"><li class="first last leaf menu-mlid-13651"><a href="../services/email-marketing/small-business/index.html">Small Business Email Marketing</a></li>
+</ul></li>
+<li class="expanded menu-mlid-13511"><a href="../services/custom-web-design/index.html" class="leader">Custom Web Design</a><ul class="menu"><li class="first leaf menu-mlid-13661"><a href="../services/custom-web-design/pricing/index.html">Web Design Pricing</a></li>
+<li class="leaf menu-mlid-13666"><a href="../services/custom-web-design/small-business/index.html">Small-Business Web Design</a></li>
+<li class="leaf menu-mlid-13671"><a href="../services/custom-web-design/corporate/index.html">Corporate Web Design</a></li>
+<li class="leaf menu-mlid-13676"><a href="../services/custom-web-design/b2b/index.html">B2B Web Design</a></li>
+<li class="leaf menu-mlid-13681"><a href="../services/custom-web-design/professional/index.html">Professional Web Design</a></li>
+<li class="leaf menu-mlid-13686"><a href="../services/custom-web-design/drupal/index.html">Drupal Web Design</a></li>
+<li class="leaf menu-mlid-13691"><a href="../services/custom-web-design/wordpress/index.html">WordPress Web Design</a></li>
+<li class="leaf menu-mlid-13696"><a href="../services/custom-web-design/seo/index.html">SEO Web Design</a></li>
+<li class="leaf menu-mlid-13701"><a href="../services/custom-web-design/mobile-responsive/index.html">Responsive Web Design</a></li>
+<li class="last leaf menu-mlid-13706"><a href="../services/custom-web-design/development/index.html">Web Development</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-13516"><a href="../services/graphic-design/index.html" class="leader">Graphic Design</a><ul class="menu"><li class="first leaf menu-mlid-13716"><a href="../services/graphic-design/services/index.html">Graphic Design Services</a></li>
+<li class="last leaf menu-mlid-13721"><a href="../services/graphic-design/pricing/index.html">Graphic Design Pricing</a></li>
+</ul></li>
+</ul></li>
+<li class="expanded active-trail active menu-mlid-13421 two-col"><a href="index.html" class="active-trail active">Markets</a><ul class="menu"><li class="first leaf menu-mlid-13761"><a href="agricultural/index.html">Agriculture</a></li>
+<li class="leaf menu-mlid-13741"><a href="logistics-supply-chain/index.html">Logistics &amp; Supply Chain</a></li>
+<li class="leaf menu-mlid-13746"><a href="automotive/index.html">Automotive</a></li>
+<li class="leaf menu-mlid-13726"><a href="manufacturing/index.html">Manufacturing</a></li>
+<li class="leaf menu-mlid-13766"><a href="aviation/index.html">Aviation</a></li>
+<li class="leaf menu-mlid-13801"><a href="marine/index.html">Marine</a></li>
+<li class="leaf menu-mlid-13736"><a href="business-services/index.html">Business Services</a></li>
+<li class="leaf menu-mlid-13806"><a href="medical-health/index.html">Medical &amp; Health</a></li>
+<li class="leaf menu-mlid-13731"><a href="construction/index.html">Construction</a></li>
+<li class="leaf menu-mlid-13811"><a href="nonprofit/index.html">Nonprofits</a></li>
+<li class="leaf menu-mlid-13751"><a href="education/index.html">Education</a></li>
+<li class="leaf menu-mlid-13841"><a href="personal-services/index.html">Personal Services</a></li>
+<li class="leaf menu-mlid-17756"><a href="entertainment-recreation/index.html">Entertainment &amp; Recreation</a></li>
+<li class="leaf menu-mlid-13756"><a href="packaging/index.html">Packaging</a></li>
+<li class="leaf menu-mlid-13776"><a href="financial-services/index.html">Financial Services</a></li>
+<li class="leaf menu-mlid-13826"><a href="pharmaceutical/index.html">Pharmaceutical</a></li>
+<li class="leaf menu-mlid-13851"><a href="food-beverage/index.html">Food &amp; Beverage</a></li>
+<li class="leaf menu-mlid-13846"><a href="professional-services/index.html">Professional Services</a></li>
+<li class="leaf menu-mlid-13781"><a href="franchise/index.html">Franchises</a></li>
+<li class="leaf menu-mlid-13836"><a href="real-estate/index.html">Real Estate</a></li>
+<li class="leaf menu-mlid-13786"><a href="home-services/index.html">Home Services</a></li>
+<li class="leaf menu-mlid-13816"><a href="retail-ecommerce/index.html">Retail &amp; E-Commerce</a></li>
+<li class="leaf menu-mlid-13771"><a href="hr-recruiting/index.html">HR &amp; Recruiting</a></li>
+<li class="leaf menu-mlid-13831"><a href="software-tech/index.html">Software &amp; Technology</a></li>
+<li class="leaf menu-mlid-13791"><a href="industrial/index.html">Industrial</a></li>
+<li class="leaf menu-mlid-13856"><a href="sports-athletics/index.html">Sports &amp; Athletics</a></li>
+<li class="leaf menu-mlid-13796"><a href="legal/index.html">Legal</a></li>
+<li class="last leaf menu-mlid-13821"><a href="tourism-hospitality/index.html">Tourism &amp; Hospitality</a></li>
+</ul></li>
+<li class="expanded menu-mlid-13426"><a href="../case-studies/index.html">Case Studies</a><ul class="menu"><li class="first leaf menu-mlid-13871"><a href="../case-studies/seo/index.html" title="SEO Case Studies">SEO Case Studies</a></li>
+<li class="leaf menu-mlid-13866"><a href="../case-studies/ppc/index.html" title="PPC Case Studies">PPC Case Studies</a></li>
+<li class="leaf menu-mlid-13861"><a href="../case-studies/email/index.html" title="Email Case Studies">Email Case Studies</a></li>
+<li class="last leaf menu-mlid-13876"><a href="../case-studies/website/index.html" title="Website Case Studies">Website Case Studies</a></li>
+</ul></li>
+<li class="leaf menu-mlid-13401"><a href="../portfolio/index.html">Portfolio</a></li>
+<li class="leaf menu-mlid-13411"><a href="../blog/index.html">Blog</a></li>
+<li class="last expanded menu-mlid-13431"><a href="../company/index.html">Company</a><ul class="menu"><li class="first leaf menu-mlid-13926"><a href="../company/marketing-resources/index.html">Marketing Resources</a></li>
+<li class="leaf menu-mlid-13921"><a href="../company/reviews/index.html">Reviews</a></li>
+<li class="leaf menu-mlid-13881"><a href="../company/careers/index.html">Careers</a></li>
+<li class="leaf menu-mlid-13896"><a href="../company/leadership/index.html">Leadership</a></li>
+<li class="leaf menu-mlid-13931"><a href="../company/locations/index.html">Locations</a></li>
+<li class="leaf menu-mlid-13886"><a href="../company/news/index.html">News</a></li>
+<li class="leaf menu-mlid-13901"><a href="../company/giving-back/index.html">Giving Back</a></li>
+<li class="leaf menu-mlid-13906"><a href="../company/behind-the-scenes/index.html">Behind the Scenes</a></li>
+<li class="leaf menu-mlid-13916"><a href="../company/partners/index.html">Partners</a></li>
+<li class="leaf menu-mlid-13891"><a href="../company/acquisitions/index.html">Acquisitions</a></li>
+<li class="last leaf menu-mlid-13911"><a href="../company/referral-program/index.html">Referral Program</a></li>
+</ul></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+            </div>
+        </div>
+    
+    
+  <div class="main">
+    <div class="inner">
+    <div class="panel-pane pane-page-content"  >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class='block-system block-page-content clearfix'  id="block-system-main">
+  
+  
+  
+  
+      <div  class="block-content clearfix"><div  class="onecol-five-row">
+
+        <div class="content-top">
+      <div class="inside">
+          <div class="inner"><div class="panel-pane pane-entity-field pane-node-field-sec-land-content-top"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-sec-land-content-top field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><div class="row markets-top">
+
+<div class="col col-left"><div class="box"><img src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/img/markets-bulp.png" /></div></div>
+
+<div class="col col-right"><div class="box">
+<h2>Our deep knowledge of these industries allows us to execute high-impact Internet marketing campaigns to generate high-quality sales leads.</h2>
+<p>Our proven success in these industries, coupled with our industry-specific knowledge and resources, sets us apart from other Internet marketing companies.</p>
+</div></div>
+
+</div></div></div></div>  </div>
+
+  
+  </div>
+</div>
+      </div>
+    </div>
+    
+    
+    
+          <div class="content-area">
+        <div class="inside"><div class="panel-pane pane-entity-field pane-node-body"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden prose"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="row markets-body">
+
+<div class="col"><div class="box">
+<h3>Agriculture</h3>
+<p>Agriculture may be the oldest industry on the planet, but it’s no stranger to technology. This is as true when it comes to marketing as it is in the field. </p>
+<p class="last"><a href="agricultural/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Automotive</h3>
+<p>You need an Internet marketing company with experience marketing to fleet managers, vehicle buyers, trucking companies and other customers up and down the automotive supply chain. We’ve got you covered.</p>
+<p><a href="automotive/auto-parts/index.html">Auto Parts</a>, <a href="automotive/auto-repair/index.html">Auto Repair</a>, <a href="automotive/car-dealer/index.html">Car Dealers</a>, <a href="automotive/car-wash/index.html">Car Wash</a>, <a href="automotive/limo/index.html">Limo</a></p>
+<p class="last"><a href="automotive/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Aviation</h3>
+<p>Aviation marketing is far from cut and dried, partly because of audience size. How you communicate with either group can vary dramatically, which means aviation marketing services must be highly specialized.</p>
+<p class="last"><a href="aviation/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Business Services</h3>
+<p>The business services sector is fiercely competitive. Are your Internet marketing campaigns and website keeping pace? </p>
+<p><a href="business-services/call-center/index.html">Call Center</a>, <a href="business-services/telecom/index.html">Telecom</a></p>
+<p class="last"><a href="business-services/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Computing and Technology</h3>
+<p>The technology sector is ever changing. Stay ahead of the Internet marketing curve so you’re there when customers are looking.</p>
+<p class="last"><a href="computing-technology/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Construction</h3>
+<p>The U.S. construction industry is poised for growth. Are you ready to capture online leads as business picks up?</p>
+<p><a href="construction/architecture/index.html">Architecture</a>, <a href="construction/contractor/index.html">Contractors</a>, <a href="construction/electrician/index.html">Electrician</a>, <a href="construction/flooring/index.html">Flooring</a>, <a href="construction/home-builder/index.html">Home Builders</a>, <a href="construction/home-improvement/index.html">Home Improvement</a>, <a href="construction/hvac/index.html">HVAC</a>,<a href="construction/interior-design/index.html">Interior Design</a>,<a href="construction/plumber/index.html">Plumbing</a>, <a href="construction/roofing/index.html">Roofing</a>, <a href="construction/solar/index.html">Solar</a></p>
+<p class="last"><a href="construction/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Education</h3>
+<p>Education is an area of strong focus for Straight North. We offer a full range of Internet marketing services for increasing enrollment, fundraising and more.</p>
+<p><a href="education/college/index.html">College</a>, <a href="education/higher-education/index.html">Higher Education</a>, <a href="education/online-school/index.html">Online School</a>, <a href="education/school/index.html">Schools</a>, <a href="education/tutor/index.html">Tutors</a></p>
+<p class="last"><a href="education/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+
+<div class="col"><div class="box">
+<h3>Entertainment &amp; Recreation</h3>
+<p><a href="entertainment-recreation/casinos/index.html">Casinos</a>, <a href="entertainment-recreation/fishing/index.html">Fishing</a>, <a href="entertainment-recreation/hunting/index.html">Hunting</a>, <a href="entertainment-recreation/movie/index.html">Movie</a>, <a href="entertainment-recreation/music/index.html">Music</a></p>
+<p class="last"><a href="entertainment-recreation/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Financial Services</h3>
+<p>When it comes to trusting a firm or financial advisor with their hard-earned money, individuals are quite choosy. How can you ensure that you are the company they see — not your competition — all while instilling a sense of trust in what you offer?</p>
+<p><a href="financial-services/accounting/index.html">Accounting</a>, <a href="financial-services/bank/index.html">Banks</a>, <a href="financial-services/credit-union/index.html">Credit Union</a>, <a href="financial-services/financial-advisor/index.html">Financial Advisors</a>, <a href="financial-services/insurance/index.html">Insurance</a>, <a href="financial-services/investment/index.html">Investments</a>, <a href="financial-services/loan/index.html">Loans</a>, <a href="financial-services/payroll/index.html">Payroll</a>, <a href="financial-services/private-equity/index.html">Private Equity</a></p>
+<p class="last"><a href="financial-services/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Food &amp; Beverage</h3>
+<p>Currently, the food and beverage industry in America is a $1 trillion annual market. That represents an enormous segment of consumers, so it only makes sense that food and beverage marketing is such a hot topic.</p>
+<p><a href="food-beverage/bars/index.html">Bars</a>, <a href="food-beverage/beer/index.html">Beer</a>, <a href="food-beverage/restaurant/index.html">Restaurants</a>, <a href="food-beverage/wine/index.html">Wine</a></p>
+<p class="last"><a href="food-beverage/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Franchises</h3>
+<p>Even with national or regional advertising help from the overarching franchise brand, there’s the reality of driving sales at a specific location, all while staying within parameters of franchise rules and trademarks.</p>
+<p class="last"><a href="franchise/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Home Services</h3>
+<p>The home services market is exploding with competition today, as major online companies dive into services such as plumbing, flooring, storage and renovation — and capture more of the market share.</p>
+<p><a href="home-services/carpet-cleaning/index.html">Carpet Cleaning</a>, <a href="home-services/daycare/index.html">Day Care</a>, <a href="home-services/dry-cleaning/index.html">Dry Cleaning</a>, <a href="home-services/cleaning/index.html">House Cleaning</a>, <a href="home-services/landscaping/index.html">Landscaping</a>, <a href="home-services/lawn-care/index.html">Lawn Care</a>, <a href="home-services/life-coach/index.html">Life Coach</a>, <a href="home-services/pest-control/index.html">Pest Control</a>, <a href="home-services/pet-sitting/index.html">Pet Sitting</a></p>
+<p class="last"><a href="home-services/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>HR &amp; Recruiting</h3>
+<p>For companies that specialize in finding and retaining talent, marketing is everything. It’s through HR and recruiting marketing that firms are able to attract prospects, generate buzz and convert leads into clients.</p>
+<p><a href="hr-recruiting/executive-search/index.html">Executive Search</a>, <a href="hr-recruiting/recruitment/index.html">Recruiting</a></p>
+<p class="last"><a href="hr-recruiting/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Industrial</h3>
+<p>Marketing for industrial companies is a complex process that uses various online and offline tactics to attract leads, shorten sales cycles, and nurture business-to-business relationships.</p>
+<p class="last"><a href="industrial/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Legal</h3>
+<p>Looking to increase business for your law practice? A solid legal marketing strategy is a must.</p>
+<p><a href="legal/attorney/index.html">Attorneys</a>, <a href="legal/law-firm/index.html">Law Firms</a>, <a href="legal/lawyer/index.html">Lawyers</a>, <a href="legal/personal-injury/index.html">Personal Injury</a></p>
+<p class="last"><a href="legal/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Logistics and Supply Chain</h3>
+<p>Like any other industry, marketing for supply chain and logistics providers is about finding and reaching decision makers. Are your potential customers finding you when they search online? </p>
+<p><a href="logistics-supply-chain/forklift/index.html">Forklifts</a>, <a href="logistics-supply-chain/trucking/index.html">Trucking</a></p>
+<p class="last"><a href="logistics-supply-chain/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Manufacturing</h3>
+<p>Whether you are a regional, nationalor a global manufacturing business, manufacturing marketing is a key concern for expanding your business.</p>
+<p class="last"><a href="manufacturing/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Marine</h3>
+<p>From boat manufacturers to marinas, any company that sells marine-industry products or services needs a way to set itself apart in the marketplace to be able to gcol. Every ship builder or boat broker already understands the industry is competitive.</p>
+<p class="last"><a href="marine/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Medical &amp; Health</h3>
+<p>If you are looking to gcol your medical practice or attract more patients to your health clinic or hospital, you’ll need to create a medical and health marketing strategy that fits your goals and your budget.</p>
+<p><a href="medical-health/acupuncturist/index.html">Acupuncturist</a>, <a href="medical-health/assisted-living/index.html">Assisted Living</a>, <a href="medical-health/cardiology/index.html">Cardiology</a>, <a href="medical-health/chiropractor/index.html">Chiropractor</a>, <a href="medical-health/dentist/index.html">Dentists</a>, <a href="medical-health/dermatology/index.html">Dermatology</a>, <a href="medical-health/doctor/index.html">Doctors</a>, <a href="medical-health/fitness/index.html">Fitness</a>, <a href="medical-health/funeral-homes/index.html">Funeral Homes</a>, <a href="medical-health/gym/index.html">Gyms</a>, <a href="medical-health/hospital/index.html">Hospitals</a>, <a href="medical-health/practice/index.html">Medical Practice</a>, <a href="medical-health/mental-health/index.html">Mental Health</a>, <a href="medical-health/ob-gyn/index.html">OB/GYN</a>, <a href="medical-health/orthopedic/index.html">Orthopedic</a>, <a href="medical-health/personal-trainer/index.html">Personal Trainer</a>, <a href="medical-health/physician/index.html">Physicians</a>, <a href="medical-health/plastic-surgery/index.html">Plastic Surgery</a>, <a href="medical-health/podiatry/index.html">Podiatry</a>, <a href="medical-health/rehab/index.html">Rehab</a>, <a href="medical-health/senior-living/index.html">Senior Living</a>, <a href="medical-health/supplement/index.html">Supplements</a>, <a href="medical-health/veterinary/index.html">Veterinary</a></p>
+<p class="last"><a href="medical-health/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Nonprofits</h3>
+<p>In today’s society, nonprofits need marketing just as much as for-profit businesses do — at least if they want to stand out to donors, increase funding and keep providing specialized services.</p>
+<p><a href="nonprofit/charities/index.html">Charities</a></p>
+<p class="last"><a href="nonprofit/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Packaging</h3>
+<p>Social media, once considered a “fringe” activity for packaging marketing, is now quite important for many firms in the packaging design business. PPC (pay per click) advertising, a perennial industry staple, has gcoln even broader in appeal as Google has changed its web design to make paid ads almost indistinguishable from organic results. Below are the most promising options for packaging marketing.</p>
+<p class="last"><a href="packaging/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Personal Services</h3>
+<p>Personal services, whether you have a photography business or run a place of worship, are types of services where interaction with people is essential to what you do.</p>
+<p><a href="personal-services/churches/index.html">Churches</a>, <a href="personal-services/dj/index.html">DJs</a>, <a href="personal-services/photographers/index.html">Photographers</a>, <a href="personal-services/salon/index.html">Salon</a>, <a href="personal-services/spa/index.html">Spa</a></p>
+<p class="last"><a href="personal-services/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Pharmaceutical </h3>
+<p>Pharmaceuticals are truly a massive industry today, with Americans spending $329.2 billion on prescription drugs in 2013 — and nine out of 10 big pharmaceutical companies now putting more into pharmaceutical marketing than research, according to The Washington Post.</p>
+<p class="last"><a href="pharmaceutical/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Professional Services</h3>
+<p>When your job is to support other professionals and businesses in a professional service of some kind, your focus tends to be outward. While this is a great way to deliver stellar customer service, it can make finding new clients difficult.</p>
+<p class="last"><a href="professional-services/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Real Estate </h3>
+<p>The real estate field is one in which you need to stand out, or you will easily be swallowed up by the competition. Whether you're a seasoned real estate agent or someone new to the field, Internet marketing has changed the marketplace — making it essential to jump on board the online marketing platform to make yourself known.</p>
+<p><a href="real-estate/apartment/index.html">Apartments</a>, <a href="real-estate/home-inspector/index.html">Home Inspection</a>, <a href="real-estate/property-management/index.html">Property Management</a>, <a href="real-estate/realtor/index.html">Realtors</a></p>
+<p class="last"><a href="real-estate/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Retail &amp; E-commerce </h3>
+<p>Whether it’s a downtown boutique, a shopping mall chain store, a big box retailer or an online retailer, every business that sells products to consumers knows the challenge of constantly needing to pull in sales.</p>
+<p><a href="retail-ecommerce/clothing/index.html">Clothing</a>, <a href="retail-ecommerce/ecommerce/index.html">E-commerce</a>, <a href="retail-ecommerce/electronics/index.html">Electronics</a>, <a href="retail-ecommerce/luxury-brands/index.html">Luxury Brands</a></p>
+<p class="last"><a href="retail-ecommerce/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Software &amp; Technology</h3>
+<p>Software and technology companies are more important than ever in today’s tech-focused business landscape. From app development to IT consulting to SaaS solutions that keep companies operating efficiently and effectively, the need for these businesses has never been greater — and there is no shortage of service providers stepping up to meet the need.</p>
+<p><a href="software-tech/computer-repair/index.html">Computer Repair</a>, <a href="software-tech/it-services/index.html">IT Services</a>, <a href="software-tech/web-hosting/index.html">Web Hosting</a></p>
+<p class="last"><a href="software-tech/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+<div class="col"><div class="box">
+<h3>Sports & Athletics </h3>
+<p>You could have an amazing program and the best players. You could even have a magical corn field that resurrects the ghosts of baseball greats, but none of that matters if nobody knows who you are. Virtually everything in sports — from selling equipment and merchandise to filling seats — takes marketing.</p>
+<p><a href="sports-athletics/golf/index.html">Golf</a></p>
+<p class="last"><a href="sports-athletics/index.html" class="btn hmp">Learn More</a></p>
+ </div></div>
+	
+<div class="col"><div class="box">
+<h3>Tourism & Hospitality </h3>
+<p>From tour guides to travel agencies, any business in the tourism and hospitality industry knows the importance of reaching its audience. In the same way a hospitality company seeks to wow and delight guests, members or clients with its services, so too it must strategize to reach those clients in the first place.</p>
+<p><a href="tourism-hospitality/hotels/index.html">Hotels</a>, <a href="tourism-hospitality/resort/index.html">Resorts</a>, <a href="tourism-hospitality/travel/index.html">Travel</a></p>
+<p class="last"><a href="tourism-hospitality/index.html" class="btn hmp">Learn More</a></p>
+</div></div>
+	
+</div></div></div></div>  </div>
+
+  
+  </div>
+</div>
+      </div>
+    
+            <div class="bottom">
+            <div class="inside"><div class="panel-pane pane-entity-field pane-node-field-sec-land-bottom"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-sec-land-bottom field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><ul class="sn-cred">
+<li class="first"><span><img src="../sites/default/files/logo_inc_5000-5.png"></span></li>
+<li><span><img src="../sites/default/files/sl-cred-google-01.png"></span></li>
+<li><span><img src="../sites/default/files/sl-cred-bbb-01.png"></span></li>
+<li><span><img src="../sites/default/files/sl-cred-clutch-01.png"></span></li>
+<li class="last"><span><img src="../sites/default/files/sl-cred-topseos-01.png"></span></li>
+</ul></div></div></div>  </div>
+
+  
+  </div>
+</div>
+        </div>
+    
+</div>
+</div>
+  
+  </div>
+
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-fixed-footer-webform"  >
+  
+      
+  
+  <div class="pane-content">
+    <div id="mini-panel-fixed_footer_webform" class="mini-panel-blank-layout">
+  
+      <div class="mini-panel">
+      <div class="panel-pane pane-custom pane-6"  id="top" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="left"><h4>Want more info and pricing?</h4></div>
+<div class="center"></div>
+<div class="right"><span class="btn dark" onclick="ga('send', 'event', 'button', 'click', 'Request Free Consulation');" >Request Free Consultation</span></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-node"  id="bottom" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class='node node-webform node-promoted clearfix'  about="/fixed-footer-webform/" typeof="sioc:Item foaf:Document" id="node-7246">
+  
+  
+  <span property="dc:title" content="" class="rdf-meta element-hidden"></span>
+      <div class='node-submitted clearfix'><span property="dc:date dc:created" content="2017-09-22T14:33:25-05:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/users/admin/" typeof="sioc:UserAccount" property="foaf:name" datatype="">admin</span> on Fri, 2017-09-22 14:33</span></div>
+  
+      <div class='node-content clearfix '>
+      <noscript>
+  <style>form.antibot { display: none !important; }</style>
+  <div class="antibot-no-js antibot-message antibot-message-warning messages warning">
+    You must have JavaScript enabled to use this form.  </div>
+</noscript>
+<form class="webform-client-form webform-client-form-7246 pnt antibot" action="https://www.straightnorth.com/antibot" method="post" id="webform-client-form-7246" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-textfield webform-component--name">
+  <label for="edit-submitted-name">Name </label>
+ <input type="text" id="edit-submitted-name" name="submitted[name]" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<div  class="form-item webform-component webform-component-email webform-component--email">
+  <label for="edit-submitted-email">Email <span class="form-required" title="This field is required.">*</span></label>
+ <input required="required" class="email form-text form-email required" type="email" id="edit-submitted-email" name="submitted[email]" size="60" />
+</div>
+<div  class="form-item webform-component webform-component-textfield webform-component--website-url">
+  <label for="edit-submitted-website-url">Website URL </label>
+ <input type="text" id="edit-submitted-website-url" name="submitted[website_url]" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<div  class="form-item webform-component webform-component-textfield webform-component--phone">
+  <label for="edit-submitted-phone">Phone </label>
+ <input type="text" id="edit-submitted-phone" name="submitted[phone]" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<div  class="form-item webform-component webform-component-textarea webform-component--comments">
+  <label for="edit-submitted-comments">Comments </label>
+ <div class="form-textarea-wrapper resizable"><textarea name="submitted[comments]" id="edit-submitted-comments" cols="60" rows="5" class="form-textarea"></textarea></div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-6rJPP6Gvs7qRUV8hjGoRlTYnMUvpuxnTtEY1duRTW3E" />
+<input type="hidden" name="form_id" value="webform_client_form_7246" />
+<input type="hidden" name="antibot_key" value="" />
+<div class="how_did_you_hear_about_us-textfield"><div class="form-item form-type-textfield form-item-how-did-you-hear-about-us">
+  <label for="edit-how-did-you-hear-about-us">Leave this field blank </label>
+ <input autocomplete="off" type="text" id="edit-how-did-you-hear-about-us" name="how_did_you_hear_about_us" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div><div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Request Consultation " /></div></div></form>    </div>
+  
+      <div class='node-links clearfix'>
+          </div>
+  </div>
+
+  </div>
+
+  
+  </div>
+    </div><!--mini-panel-->
+   
+</div><!--mini-panel-blank-layout-->
+  </div>
+
+  
+  </div>
+    </div>
+  <!-- </div> --><!-- main -->
+
+
+  <div class="footer">
+    <div class="footer-top"></div>
+
+    <div class="footer-btm">
+      <div class="inner"><div class="panel-pane pane-custom pane-3"  >
+  
+      
+  
+  <div class="pane-content">
+    <a href="../index.html" class="logo" rel="nofollow"><img src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/img/logo-sn-main-02.png" /></a>
+<!-- 
+<ul class="soc-icons">
+<li><a href="https://www.facebook.com/StraightNorth/" target="_blank"><img src="/profiles/sndev_install/themes/sndev/img/footer-soc-icon7.png" /></a></li>
+<li><a href="https://twitter.com/StraightNorth/" target="_blank"><img src="/profiles/sndev_install/themes/sndev/img/footer-soc-icon6.png" /></a></li>
+<li><a href="https://www.linkedin.com/company/straight-north/" target="_blank"><img src="/profiles/sndev_install/themes/sndev/img/footer-soc-icon4.png" /></a></li>
+<li><a href="https://www.pinterest.com/straightnorth/" target="_blank"><img src="/profiles/sndev_install/themes/sndev/img/footer-soc-icon3.png" /></a></li>
+<li><a href="https://www.youtube.com/c/StraightNorth" target="_blank"><img src="/profiles/sndev_install/themes/sndev/img/footer-soc-icon2.png" /></a></li>
+<li><a href="/insights/"><img src="/profiles/sndev_install/themes/sndev/img/footer-soc-icon-insights-01.png" /></a></li>
+</ul>
+
+-->  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-4"  >
+  
+      
+  
+  <div class="pane-content">
+    <ul class="locations">
+	<li>
+		<a class="first" href="../locations/austin/index.html">Austin</a>
+	</li>
+	<li>
+		<a href="../locations/baltimore-md/index.html">Baltimore</a>
+	</li>
+	<li>
+		<a href="../locations/charlotte-nc/index.html">Charlotte</a>
+	</li>
+	<li>
+		<a href="../locations/chicago-il/index.html">Chicago</a>
+	</li>
+
+	<li>
+		<a href="../locations/denver/index.html">Denver</a> 
+	</li>
+	<li>
+		<a href="../locations/los-angeles/index.html">Los Angeles</a>  
+	</li>
+	<li>
+		<a href="../locations/new-york/index.html">New York</a>  
+	</li>
+	<li class="last">
+		<a href="../locations/washington-dc/index.html">Washington, D.C.</a> 
+	</li>
+</ul>
+
+<ul class="about">
+<li><a href="../make-every-click-count/index.html" rel="nofollow">Make Every Click Count&reg;</a></li>
+<li><a href="../privacy-policy/index.html" rel="nofollow">Privacy Policy</a></li>
+<li><a href="../terms-use/index.html" rel="nofollow">Terms of Use</a></li>
+<li class="last"><a href="../sitemap/index.html">Site Map</a></li>
+</ul>
+
+<div class="copyright">&copy; 2021 Straight North, LLC USA</div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+  </div><!--footer-->
+
+  <div class="colophon">
+    <div class="inner"><div class="panel-pane pane-custom pane-1"  >
+  
+      
+  
+  <div class="pane-content">
+    <!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 974254438;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="../../www.googleadservices.com/pagead/f.txt">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/974254438/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-sn-google"  >
+  
+      
+  
+  <div class="pane-content">
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","../../www.google-analytics.com/analytics.js","ga");ga("create", "UA-3930217-2", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-2"  >
+  
+      
+  
+  <div class="pane-content">
+    <!-- had to wrap this in a dom.ready jquery was loading too slow and causing error. -->
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function(){
+setTimeout(function(){
+  jQuery(function() {
+          var checkExist = setInterval(function() {
+              if (jQuery('#seogroup-scan_form').length > 0) {
+                  jQuery('#seogroup-scan_form').find('input[type="submit"]').addClass('om-trigger-conversion');
+                clearInterval(checkExist);
+             }
+          }, 100); // check every 100ms
+      });
+  },100);//timeout
+});
+</script>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div><!--container-->
+  
+<!-- ADDED Aug19 -->
+
+    <script src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/modernizr.custom.js"></script>
+
+
+
+    <script type="text/javascript" defer="defer" src="../sites/default/files/google_tag/google_tag.scriptb491.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/misc/jquery-extend-3.4.0.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/misc/drupal.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/contrib/codefilter/codefilter.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/sncustom/ouibounce/ouibounce.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/sncustom/ouibounce/exit_intent.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/sncustom/sn_audit/sn_audit.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/contrib/colorbox/js/colorbox.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/contrib/colorbox/styles/default/colorbox_style.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/contrib/colorbox/js/colorbox_load.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/contrib/colorbox/js/colorbox_inline.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/contrib/antibot/js/antibot.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/contrib/webform/js/webform.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/contrib/hide_submit/js/hide_submit.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/contrib/hide_submit/js/spin.min.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/modules/contrib/hide_submit/js/ladda.min.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/sn-form-validation.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/jquery.bxslider.min.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/jquery.columnlist.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/jquery.matchHeight-min.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/jquery.customSelect.min.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/jssocials.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/parallax.min.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/simpleLightbox.min.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/jquery.fitvids.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/jquery.easing.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/scripts.js?qyuyx4"></script>
+<script type="text/javascript" src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/odometer.min.js?qyuyx4"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"sndev","theme_token":"CGkplRToLT6Wo5RXMhcvqTB-7PsAO1oUaWBaTT2iBi0","css":{"profiles\/sndev_install\/modules\/contrib\/codefilter\/codefilter.css":1,"modules\/field\/theme\/field.css":1,"profiles\/sndev_install\/modules\/sncustom\/ouibounce\/exit_intent.css":1,"profiles\/sndev_install\/modules\/contrib\/views\/css\/views.css":1,"profiles\/sndev_install\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/sndev_install\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/sndev_install\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/sndev_install\/themes\/sndev\/plugins\/layouts\/sndev\/onecol_five_row\/onecol_five_row.css":1,"profiles\/sndev_install\/themes\/sndev\/plugins\/layouts\/sndev\/mini_panel_blank\/mini_panel_blank.css":1,"public:\/\/honeypot\/honeypot.css":1,"profiles\/sndev_install\/modules\/contrib\/webform\/css\/webform.css":1,"\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.7.0\/css\/font-awesome.min.css":1,"profiles\/sndev_install\/modules\/contrib\/hide_submit\/css\/ladda-themeless.min.css":1,"profiles\/sndev_install\/modules\/contrib\/hide_submit\/css\/hide_submit.css":1,"profiles\/sndev_install\/themes\/sndev\/css\/reset.css":1,"profiles\/sndev_install\/themes\/sndev\/css\/base.css":1,"profiles\/sndev_install\/themes\/sndev\/css\/print.css":1,"profiles\/sndev_install\/themes\/sndev\/css\/simpleLightbox.min.css":1,"profiles\/sndev_install\/themes\/sndev\/css\/sndev.css":1,"profiles\/sndev_install\/themes\/sndev\/css\/odometer.css":1},"js":{"public:\/\/google_tag\/google_tag.script.js":1,"profiles\/sndev_install\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/sndev_install\/modules\/contrib\/codefilter\/codefilter.js":1,"profiles\/sndev_install\/modules\/sncustom\/ouibounce\/ouibounce.js":1,"profiles\/sndev_install\/modules\/sncustom\/ouibounce\/exit_intent.js":1,"profiles\/sndev_install\/modules\/sncustom\/sn_audit\/sn_audit.js":1,"profiles\/sndev_install\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/sndev_install\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"profiles\/sndev_install\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"profiles\/sndev_install\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"profiles\/sndev_install\/modules\/contrib\/antibot\/js\/antibot.js":1,"profiles\/sndev_install\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/sndev_install\/modules\/contrib\/hide_submit\/js\/hide_submit.js":1,"profiles\/sndev_install\/modules\/contrib\/hide_submit\/js\/spin.min.js":1,"profiles\/sndev_install\/modules\/contrib\/hide_submit\/js\/ladda.min.js":1,"profiles\/sndev_install\/themes\/sndev\/js\/sn-form-validation.js":1,"profiles\/sndev_install\/themes\/sndev\/js\/jquery.bxslider.min.js":1,"profiles\/sndev_install\/themes\/sndev\/js\/jquery.columnlist.js":1,"profiles\/sndev_install\/themes\/sndev\/js\/jquery.matchHeight-min.js":1,"profiles\/sndev_install\/themes\/sndev\/js\/jquery.customSelect.min.js":1,"profiles\/sndev_install\/themes\/sndev\/js\/jssocials.js":1,"profiles\/sndev_install\/themes\/sndev\/js\/parallax.min.js":1,"profiles\/sndev_install\/themes\/sndev\/js\/simpleLightbox.min.js":1,"profiles\/sndev_install\/themes\/sndev\/js\/jquery.fitvids.js":1,"profiles\/sndev_install\/themes\/sndev\/js\/jquery.easing.js":1,"profiles\/sndev_install\/themes\/sndev\/js\/scripts.js":1,"profiles\/sndev_install\/themes\/sndev\/js\/odometer.min.js":1}},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"returnFocus":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"300","initialHeight":"250","fixed":true,"scrolling":false,"mobiledetect":true,"mobiledevicewidth":"480px","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"hide_submit":{"hide_submit_status":true,"hide_submit_method":"indicator","hide_submit_css":"hide-submit-disable","hide_submit_abtext":"","hide_submit_atext":"","hide_submit_hide_css":"hide-submit-processing","hide_submit_hide_text":"Processing...","hide_submit_indicator_style":"expand-right","hide_submit_spinner_color":"#fff","hide_submit_spinner_lines":10,"hide_submit_hide_fx":1,"hide_submit_reset_time":5000},"antibot":{"forms":{"webform-client-form-7246":{"action":"\/markets\/","key":"f8644537c9f0450f2fb5a9af9fde70f9"}}},"urlIsAjaxTrusted":{"\/markets\/":true}});
+//--><!]]>
+</script>
+
+
+
+
+
+ <!-- SCRIPTS -->
+
+<!-- Google Knowledge Graph -->
+<script async type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "https://www.straightnorth.com",
+      "logo": "https://www.straightnorth.com/sites/default/files/sn-icon.jpg"
+    }
+</script>
+
+<script async type="application/ld+json">
+    {
+    "@context" : "http://schema.org",
+    "@type" : "Organization",
+    "name" : "Straight North",
+    "url" : "https://www.straightnorth.com",
+    "sameAs" : [ "http://www.facebook.com/StraightNorth",
+        "http://twitter.com/StraightNorth",
+        "https://plus.google.com/111042924419965926271/about",
+        "http://www.linkedin.com/company/straight-north",
+        "http://www.pinterest.com/straightnorth",
+        "https://www.youtube.com/c/StraightNorth"]
+    }
+</script>
+<!-- Google Knowledge Graph -->
+
+
+
+    <!-- GNL Tracking -->
+<script async type="text/javascript">
+setTimeout(function(){
+    jQuery(function() {
+
+        var checkExist = setInterval(function() {
+            if (jQuery('#seogroup-scan_form').length > 0) {
+                jQuery('#seogroup-scan_form').addClass('pnt');
+               document.getElementById('seogroup-form-url').value="" ;
+                jQuery('#seogroup-scan_form').find('input[type="submit"]').click(function(){
+                    pntLocalStore.set('readyForTransmit', 1);
+                    ProjectNorth.prototype.sendFormData();
+                });
+
+              clearInterval(checkExist);
+           }
+        }, 100); // check every 100ms
+    });
+},100);//timeout
+</script>
+    <!-- GNL Tracking -->
+
+		<script async src="https://www.straightnorth.com/profiles/sndev_install/themes/sndev/js/jquery.validate.min.js"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-889129a6de040a5da11","applicationID":"211269243","transactionName":"NQBXYEcDDBYAWxdZXAxKdFdBCw0LTkgCV1Y9CFRaVAUHFz5WDFRWPRNcUUI9EgQGXQ==","queueTime":0,"applicationTime":341,"atts":"GUdUFg8ZHxg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from www.straightnorth.com/markets/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Sep 2021 06:26:48 GMT -->
+</html>

@@ -1,0 +1,95 @@
+.contentHead {
+overflow: overlay !important; 
+position: relative !important;
+}
+.searchMnDivNewFea {
+    width: 300px;
+    float: right;
+    padding: 8px 0px 0px 0px;
+}
+
+@media only screen and (max-width:639px),
+only screen and (max-device-width:639px){
+    .searchMnDivNewFea{width:100%; float:none; padding:10px 10px; clear:both; box-sizing:border-box; background: #F5F5F5;   }
+    .headingText{ display:block !important; padding-bottom:10px;}
+	.srchRecDiv {
+	    width: auto !important;
+        left: 11px;
+        max-width: 90%;
+        padding: 0px !important;
+        position: relative !important;
+        top: -21px !important;
+	}
+}
+
+@media only screen and (max-width:584px),
+only screen and (max-device-width:584px){
+	.srchRecDiv {
+       right: 61px !important;
+      
+	}
+}
+@media only screen and (max-width:480px),
+only screen and (max-device-width:480px){
+	.srchRecDiv {
+       right: 43px !important;
+      
+	}
+}
+@media only screen and (max-width:418px),
+only screen and (max-device-width:418px){
+	.srchRecDiv {
+       right: 33px !important;
+      
+	}
+}
+@media only screen and (max-width:380px),
+only screen and (max-device-width:380px){
+	.srchRecDiv {
+       right: 26px !important;
+	    max-width: 92%;
+      
+	}
+}
+@media only screen and (max-width:360px),
+only screen and (max-device-width:360px){
+	.srchRecDiv {
+       right: 22px !important;
+      
+	}
+}
+@media only screen and (max-width:320px),
+only screen and (max-device-width:320px){
+	.srchRecDiv {
+       right: 22px !important;
+      
+	}
+}
+.srchRecDiv ul {margin:0px;padding:8px;list-style:none;}
+.srchRecDiv ul li {padding:6px 0px;color: #777; font-size: 16px;}
+.srchRecDiv ul li b {color: #333;}
+.srchRecDiv {
+    z-index:999;
+    width: auto;
+    padding: 5px;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    background: #FFF;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 0px;
+    clear: both;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+	right: 2px;
+	top: 63px;
+	width: 286px;
+	box-shadow:0px 2px 7px 2px rgba(153,153,153,1);
+	-ms-box-shadow:0px 2px 7px 2px rgba(153,153,153,1);
+    -webkit-box-shadow: 0px 2px 7px 2px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 2px 7px 2px rgba(153,153,153,1);
+  
+}

@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.try.clerk.io	TRUE	/	FALSE	1999999999	__cfruid	9d139d89a303604cbe6fe3229e359d029af726be-1631005282
+try.clerk.io	TRUE	/	FALSE	1999999999	SameSite	None
+.blog.clerk.io	TRUE	/	FALSE	1999999999	__cfruid	420477c0b4af38b126a47a97d4dcb7178c51fdb5-1631005415
+blog.clerk.io	TRUE	/	FALSE	1999999999	SameSite	None
+

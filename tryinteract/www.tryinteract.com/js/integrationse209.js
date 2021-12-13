@@ -1,0 +1,1 @@
+$(".integration-menu-category").click(function(){if($(this).hasClass("active"))return!1;$(".integration-menu-category.active").removeClass("active"),$(this).toggleClass("active",!0);var a=$(this).attr("data-id");"all"===a?$("div[data-category").fadeIn(100):($("div[data-category]").hide(),$("div[data-category="+a+"]").fadeIn(100))});

@@ -1,0 +1,149 @@
+.blockquote-color-custom p, .blockquote-color-custom small {
+	color: inherit;
+}
+
+.blockquote-color-custom {
+	border-right: 0 none !important;
+	border-left: 0 none !important;
+}
+
+.custom-heading-delim {
+	border-top: 3px solid #303030;
+	display: block;
+	margin-top: 10px;
+	width: 30px;
+}
+
+.text-light .custom-heading-delim {
+	border-top: 3px solid #fff;
+}
+
+.text-right .custom-heading-delim {
+	margin: 30px 0 0 auto;
+}
+
+.heading-center .custom-heading-delim {
+	margin: 30px auto 0 auto;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.custom-heading {
+	margin-bottom: 80px;
+}
+.custom-heading h1 {
+	line-height: 1;
+}
+.custom-heading h2 {
+	font-size: 40px;
+	line-height: 1em;
+}
+
+.custom-heading h1, .custom-heading h2, .custom-heading h3, .custom-heading h4 {
+	color: #303030;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.custom-heading h2 + span, .custom-heading h2 + span.lead {
+	font-size: 20px;
+}
+
+.device-xs .custom-heading h1, .device-xxs .custom-heading h1 {
+	font-size: 40px !important;
+	line-height: 1.1em !important;
+}
+
+.device-xxs .custom-heading h2 + span, .device-xxs  .custom-heading h2 + span.lead{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.custom-heading > span {
+	display: block;
+	color: #888;
+}
+
+.text-inline {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.text-inline + .text-inline {
+	margin-left: 10px;
+}
+
+/*.button.custom{
+	border: none;
+}*/
+
+.container .vc_row-no-padding .jumbotron {
+	border-radius: 0;
+}
+
+/*Woocommerce*/
+.woocommerce .recent-products-list .product {
+	margin-bottom: 12px;
+}
+
+.shop-promo-box .button.button-dark,
+.shop-promo-box .button.button-custom {
+	border-width: 0;
+}
+
+.shop-promo-box.text-custom h2,
+.shop-promo-box.text-custom p {
+	color: inherit;
+}
+
+.color-changed .crumina-contact-form .control-label{
+	color: inherit;
+}
+
+.container .jumbotron.jumbotron-no-border-radius{
+	border-radius: 0;
+}
+
+/*testimonial slider*/
+#testimonials.testimonials-left .testimonial-item > p, #testimonials.testimonials-left .testimonial-item > span {
+	display: block;
+}
+
+/*grid articles*/
+.grid-articles article.post-entry.wide-article{
+	width: 50%;
+}
+
+/*author title*/
+.blog-author-title {
+	font-size: 96px;
+	line-height: 86px;
+	font-family: 'Damion', cursive;
+	text-align: center;
+
+}
+
+/*progress bar text color*/
+.progress-bar-container.title-up .progress-bar.progress-animated,
+.progress-bar-container.title-up .progress-bar .progress-title,
+.progress-bar-container.title-up .progress-bar.progress-animated .progress-number,
+.progress-bar-container.title-up .progress-bar.progress-animated .progress-type {
+	color: inherit;
+}
+
+@media (max-width: 600px) {
+	#main-content .vc_column_container>.vc_column-inner {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	#main-content .vc_row.vc_row-no-padding .vc_column-inner,
+	#main-content .fullscreen-map-form-container {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+
+}
